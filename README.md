@@ -2,7 +2,7 @@
 ![Cybersecurity-Azure-SOC](https://github.com/oawelewa/Azure-SOC-/assets/132318130/1c6ce36b-aed9-43bd-89e3-453e6e22158e)
 ## Introduction
 
-In this project, I set up a mini honeynet in Azure and ingested log sources from various resources into a Log Analytics workspace. Microsoft Sentinel then used this workspace to create attack maps, trigger alerts, and generate incidents. I measured security metrics in the unsecured environment for 24 hours, applied security controls to harden the environment, measured metrics for another 24 hours, and presented the results below. The metrics we will examine are:
+In this project, I set up a mini honeynet in Azure and ingested log sources from various resources into a Log Analytics workspace (Microsoft Sentinel), then I used this workspace to create attack maps, trigger alerts, and generate incidents. I measured security metrics in the unsecured environment for 24 hours, applied security controls to harden the environment, measured metrics for another 24 hours, and presented the results below. The metrics we will examine are:
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
